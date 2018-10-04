@@ -1,0 +1,21 @@
+.container {
+    width: 60%;
+    margin-top: 100px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.card {
+    padding: 0;
+    border: solid, 5px, #0b0237;
+    background-color: #0b0237;
+    color: white;
+}
+
+.card-image-top {
+    border: none;
+
+}
