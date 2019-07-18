@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Psychic Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
-  
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<!--Body Background-->
-<body background="assets/images/stardust.jpg">
-
-
-<div id="main-container" class="container">
-
-    <div class="row">
-        
+  <!--Body Background-->
+  <body background="assets/images/stardust.jpg">
+    <div id="main-container" class="container">
+      <div class="row">
         <div class="col"></div>
 
         <div class="col-xs-12 col-s-12 col-m-6 col-l-6 col-xl-6 card rounded">
-            <img id=psychicimage class="card-img-top" src="assets/images/psychicneonsign.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h1>Guess what letter I'm thinking of</h1>
-                 <p id="userWins">Wins:</p>
-                 <p id="userLosses">Losses:</p>
-                 <p id="guessesLeft">Guesses Left:</p>
-                 <p id="lettersGuessedText">Your Guesses So Far:</p>
-            </div>
+          <img
+            id="psychicimage"
+            class="card-img-top"
+            src="assets/images/psychicneonsign.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h1 id="gameMessage"></h1>
+            <p id="wins"></p>
+            <p id="losses"></p>
+            <p id="guessesLeft"></p>
+            <p id="userGuesses"></p>
+          </div>
         </div>
 
         <div class="col"></div>
-    
+      </div>
     </div>
-</div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-</body>
-
+  </body>
 </html>
